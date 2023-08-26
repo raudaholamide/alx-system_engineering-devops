@@ -1,6 +1,6 @@
 # Install flask.pp
 
-package { 'pip3':
+package { 'flask':
   ensure   => '2.1.1',
   provider => 'gem',
 }
